@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets/3.7.56">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <OutputPath>.\</OutputPath>
+    <Description>Bluehill's MSBuild import files</Description>
+    <Version>1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/na1307/Bluehill.Imports</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\Directory.Build.props" Pack="true" PackagePath="build\Bluehill.Imports.props" />
+    <None Include="..\Directory.Build.targets" Pack="true" PackagePath="build\Bluehill.Imports.targets" />
+    <None Include="..\AfterTargetFrameworkInference.targets" Pack="true" PackagePath="build\AfterTargetFrameworkInference.targets" />
+  </ItemGroup>
+</Project>

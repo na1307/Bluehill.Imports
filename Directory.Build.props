@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <AfterTargetFrameworkInferenceTargets>$(MSBuildThisFileDirectory)AfterTargetFrameworkInference.targets</AfterTargetFrameworkInferenceTargets>
+    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <Authors>na1307</Authors>
+    <Company>Bluehill</Company>
+    <Copyright>Copyright © Bluehill 2024</Copyright>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+</Project>
