@@ -1,8 +1,0 @@
-<Project>
-  <PropertyGroup Condition="'$(TargetFrameworks)' == ''">
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(TargetFrameworks)' != ''">
-    <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
-  </PropertyGroup>
-</Project>

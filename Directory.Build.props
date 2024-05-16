@@ -1,7 +1,5 @@
 <Project>
   <PropertyGroup>
-    <AfterTargetFrameworkInferenceTargets>$(MSBuildThisFileDirectory)AfterTargetFrameworkInference.targets</AfterTargetFrameworkInferenceTargets>
-    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
