@@ -14,6 +14,5 @@
     <None Include="..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\Directory.Build.props" Pack="true" PackagePath="build\Bluehill.Imports.props" />
     <None Include="..\Directory.Build.targets" Pack="true" PackagePath="build\Bluehill.Imports.targets" />
-    <None Include="..\AfterTargetFrameworkInference.targets" Pack="true" PackagePath="build\AfterTargetFrameworkInference.targets" />
   </ItemGroup>
 </Project>
