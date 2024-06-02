@@ -3,9 +3,9 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Bluehill.Analyzers" Version="1.0.0-beta.1.1" />
+    <PackageVersion Include="Bluehill.Analyzers" Version="1.0.0-beta.2" />
     <PackageVersion Include="Roslynator.Analyzers" Version="4.12.3" />
     <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.12.3" />
-    <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.25.1.91650" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.26.0.92422" />
   </ItemGroup>
 </Project>
