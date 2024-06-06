@@ -1,11 +1,13 @@
 <Project>
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <CentralPackageVersionOverrideEnabled>false</CentralPackageVersionOverrideEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Bluehill.Analyzers" Version="1.0.0-beta.2" />
-    <PackageVersion Include="Roslynator.Analyzers" Version="4.12.3" />
-    <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.12.3" />
+    <PackageVersion Include="Bluehill.Analyzers" Version="1.0.0" />
+    <PackageVersion Include="Roslynator.Analyzers" Version="4.12.4" />
+    <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.12.4" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.26.0.92422" />
   </ItemGroup>
 </Project>
