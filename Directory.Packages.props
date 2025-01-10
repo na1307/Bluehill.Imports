@@ -1,12 +1,5 @@
 <Project>
   <PropertyGroup>
-    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
-    <CentralPackageVersionOverrideEnabled>false</CentralPackageVersionOverrideEnabled>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageVersion Include="Bluehill.Analyzers" Version="1.2.0" />
-    <PackageVersion Include="Roslynator.Analyzers" Version="4.12.10" />
-    <PackageVersion Include="Roslynator.Formatting.Analyzers" Version="4.12.10" />
-  </ItemGroup>
 </Project>

@@ -3,19 +3,21 @@
     <TargetFrameworks>net20;netstandard2.1</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Bluehill's MSBuild import files</Description>
-    <Version>1.0.9</Version>
+    <Version>1.0.10-beta.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Imports</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="_._" Pack="true" PackagePath="lib\net20\" />
+    <None Include="_._" Pack="true" PackagePath="lib\netstandard2.1\" />
     <None Include="..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\Directory.Build.props" Pack="true" PackagePath="build\Bluehill.Imports.props" />
     <None Include="..\Directory.Build.targets" Pack="true" PackagePath="build\Bluehill.Imports.targets" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bluehill.Analyzers" PrivateAssets="none" />
-    <PackageReference Include="Roslynator.Analyzers" PrivateAssets="none" />
-    <PackageReference Include="Roslynator.Formatting.Analyzers" PrivateAssets="none" />
+    <PackageReference Include="Bluehill.Analyzers" Version="1.2.0" PrivateAssets="none" />
+    <PackageReference Include="Roslynator.Analyzers" Version="4.12.10" PrivateAssets="none" />
+    <PackageReference Include="Roslynator.Formatting.Analyzers" Version="4.12.10" PrivateAssets="none" />
   </ItemGroup>
 </Project>

@@ -2,7 +2,15 @@
   <PropertyGroup Condition="'$(Description)' == ''">
     <Description>$(AssemblyTitle)</Description>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(GeneratePackageOnBuild)' != 'true'">
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
   <ItemGroup Condition="'$(UseWindowsForms)' == 'true' and '$(TargetFramework)' == 'net20'">
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(GeneratePackageOnBuild)' == 'true' and ('$(OutputType)' == '' or '$(OutputType)' == 'Library')">
+    <AssemblyAttribute Include="System.CLSCompliantAttribute">
+      <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
   </ItemGroup>
 </Project>
