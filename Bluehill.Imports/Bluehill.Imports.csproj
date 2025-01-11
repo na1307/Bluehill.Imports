@@ -3,7 +3,7 @@
     <TargetFrameworks>net20;netstandard2.1</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Bluehill's MSBuild import files</Description>
-    <Version>1.0.10-beta.1</Version>
+    <Version>1.0.10</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Imports</RepositoryUrl>
@@ -16,7 +16,7 @@
     <None Include="..\Directory.Build.targets" Pack="true" PackagePath="build\Bluehill.Imports.targets" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bluehill.Analyzers" Version="1.2.0" PrivateAssets="none" />
+    <PackageReference Include="Bluehill.Analyzers" Version="1.3.0" PrivateAssets="none" />
     <PackageReference Include="Roslynator.Analyzers" Version="4.12.10" PrivateAssets="none" />
     <PackageReference Include="Roslynator.Formatting.Analyzers" Version="4.12.10" PrivateAssets="none" />
   </ItemGroup>
