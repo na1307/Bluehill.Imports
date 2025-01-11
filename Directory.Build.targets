@@ -5,6 +5,10 @@
   <PropertyGroup Condition="'$(GeneratePackageOnBuild)' != 'true'">
     <IsPackable>false</IsPackable>
   </PropertyGroup>
+  <ItemGroup>
+    <Using Remove="System.Linq" Condition="'$(TargetFrameworkIdentifier)' == '.NETFramework' and $([MSBuild]::VersionLessThan($(TargetFrameworkVersion), '3.5'))" />
+    <Using Remove="System.Threading.Tasks" Condition="'$(TargetFrameworkIdentifier)' == '.NETFramework' and $([MSBuild]::VersionLessThan($(TargetFrameworkVersion), '4.0'))" />
+  </ItemGroup>
   <ItemGroup Condition="'$(UseWindowsForms)' == 'true' and '$(TargetFramework)' == 'net20'">
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
