@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.Build.NoTargets/3.7.56">
   <PropertyGroup>
-    <TargetFrameworks>net20;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net20;netstandard2.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Bluehill's MSBuild import files</Description>
     <DevelopmentDependency>true</DevelopmentDependency>
     <NoPackageAnalysis>true</NoPackageAnalysis>
-    <Version>1.0.15</Version>
+    <Version>1.0.17</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Imports</RepositoryUrl>
@@ -18,10 +18,10 @@
     <None Include="..\Directory.Build.targets" Pack="true" PackagePath="build\Bluehill.Imports.targets" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bluehill.Analyzers" Version="1.7.0" IncludeAssets="analyzers" PrivateAssets="none" />
+    <PackageReference Include="Bluehill.Analyzers" Version="1.8.0" IncludeAssets="analyzers" PrivateAssets="none" />
     <PackageReference Include="Roslynator.Analyzers" Version="4.13.1" IncludeAssets="analyzers" PrivateAssets="none" />
     <PackageReference Include="Roslynator.Formatting.Analyzers" Version="4.13.1" IncludeAssets="analyzers" PrivateAssets="none" />
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.8.0.113526" IncludeAssets="analyzers" PrivateAssets="none" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.12.0.118525" IncludeAssets="analyzers" PrivateAssets="none" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556" IncludeAssets="analyzers" PrivateAssets="none" />
   </ItemGroup>
 </Project>
