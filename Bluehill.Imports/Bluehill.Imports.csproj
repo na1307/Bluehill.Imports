@@ -5,7 +5,7 @@
     <Description>Bluehill's MSBuild import files</Description>
     <DevelopmentDependency>true</DevelopmentDependency>
     <NoPackageAnalysis>true</NoPackageAnalysis>
-    <Version>1.0.19</Version>
+    <Version>1.0.20</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/na1307/Bluehill.Imports</RepositoryUrl>
@@ -18,7 +18,7 @@
     <None Include="..\Directory.Build.targets" Pack="true" PackagePath="build\Bluehill.Imports.targets" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Bluehill.Analyzers" Version="1.8.1" IncludeAssets="analyzers" PrivateAssets="none" />
+    <PackageReference Include="Bluehill.Analyzers" Version="1.9.0" IncludeAssets="analyzers" PrivateAssets="none" />
     <PackageReference Include="Roslynator.Analyzers" Version="4.14.0" IncludeAssets="analyzers" PrivateAssets="none" />
     <PackageReference Include="Roslynator.Formatting.Analyzers" Version="4.14.0" IncludeAssets="analyzers" PrivateAssets="none" />
     <PackageReference Include="SonarAnalyzer.CSharp" Version="10.15.0.120848" IncludeAssets="analyzers" PrivateAssets="none" />
